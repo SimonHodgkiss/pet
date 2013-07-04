@@ -15,8 +15,14 @@ footer {
 	background: #000 url(../img/footer_bk.png) repeat;
 }
 
-.carousel .item > img {
-  margin:0px auto;
-  display: block;
-  line-height: 1;
+ul.nav {
+	height: 60px;
+}
+
+ul.nav li a {
+	padding-top: 39px;
+}
+
+ul.nav li {
+	padding-top: 10px;
 }
