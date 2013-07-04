@@ -14,15 +14,3 @@ footer {
 	font-size: 11px;
 	background: #000 url(../img/footer_bk.png) repeat;
 }
-
-ul.nav {
-	height: 60px;
-}
-
-ul.nav li a {
-	padding-top: 39px;
-}
-
-ul.nav li {
-	padding-top: 10px;
-}
