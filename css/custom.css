@@ -1,5 +1,4 @@
 body {
-	
 }
 
 h1, h2, h3, h4, h5 {
@@ -7,11 +6,17 @@ h1, h2, h3, h4, h5 {
 }
 
 footer {
-	background-color: #503868;
 	font-style: normal;
 	font-weight: normal;
 	color: #fff;
 	padding-top: 40px;
 	margin-top: 40px;
 	font-size: 11px;
+	background: #000 url(../img/footer_bk.png) repeat;
+}
+
+.carousel .item > img {
+  margin:0px auto;
+  display: block;
+  line-height: 1;
 }
