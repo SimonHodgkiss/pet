@@ -3,6 +3,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #5b3124;
 }
 
 footer {
@@ -10,7 +11,20 @@ footer {
 	font-weight: normal;
 	color: #fff;
 	padding-top: 40px;
-	margin-top: 40px;
+	margin-top: 0;
 	font-size: 11px;
-	background: #000 url(../img/footer_bk.png) repeat;
+	background: #000 url(../img/form_bk.png) repeat;
+}
+
+.snake {
+	height: 200px;
+}
+
+.quote {
+	background-image: url(../img/form_bk.png);
+	margin-top: 80px;
+	margin-bottom: 0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #fef9e5;
 }
