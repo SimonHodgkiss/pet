@@ -1,4 +1,5 @@
 body {
+	background-image: url(../img/bk.png);
 }
 
 h1, h2, h3, h4, h5 {
@@ -9,15 +10,10 @@ h1, h2, h3, h4, h5 {
 footer {
 	font-style: normal;
 	font-weight: normal;
-	color: #fff;
 	padding-top: 40px;
 	margin-top: 0;
 	font-size: 11px;
-	background: #000 url(../img/form_bk.png) repeat;
-}
-
-.snake {
-	height: 200px;
+	background-repeat: repeat;
 }
 
 .quote {
@@ -28,3 +24,18 @@ footer {
 	padding-bottom: 80px;
 	color: #fef9e5;
 }
+
+div.navbar.navbar-fixed-top {
+	background-color: #fff;
+	background-image: url(../img/form_bk.png);
+}
+
+ul.nav li  {
+	background-color: transparent;
+	margin-top: 20px;
+}
+
+.space {
+	margin-top: 20px;
+	margin-bottom: 20px;
+} ul.nav li.active a ul.nav li.active a
