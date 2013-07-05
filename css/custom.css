@@ -7,10 +7,25 @@ h1, h2, h3, h4, h5 {
 	color: #5b3124;
 }
 
-h3 i {
+.navbar {
+	font: bold 120% 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	max-width: 1024px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+.icon-large {
 	position: relative;
-	top: 4px;
-	right: 9px;
+	right: 10px;
+}
+
+i {
+	margin-right: 9px;
 }
 
 footer {
@@ -19,7 +34,11 @@ footer {
 	padding-top: 40px;
 	margin-top: 0;
 	font-size: 11px;
-	background-repeat: repeat;
+	background: url(./img/footer_bk.png) repeat;
+}
+
+footer a {
+	color: #2c160f;
 }
 
 .quote {
