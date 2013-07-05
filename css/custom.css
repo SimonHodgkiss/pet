@@ -83,8 +83,9 @@ footer a {
 	color: #fef9e5;
 }
 
-.quote h3 {
+.quote h2 {
 	color: #e8e8e8;
+	line-height: 80px;
 }
 
 h2.pull-right {
