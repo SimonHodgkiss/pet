@@ -9,6 +9,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
 	background-image: url(../img/bk_orange.png);
+	
 }
 
 .telbar .lead {
@@ -66,10 +67,10 @@ footer {
 	font-style: normal;
 	font-weight: normal;
 	padding-top: 40px;
-	margin-top: 0;
 	font-size: 11px;
 	background: #fd480e url(../img/bk_orange.png) repeat;
 	color: #000;
+	margin-top: 100px;
 }
 
 a.btn.btn-inverse.pull-right {
@@ -116,4 +117,12 @@ ul.nav li  {
 .space {
 	margin-top: 20px;
 	margin-bottom: 20px;
-} ul.nav li.active a ul.nav li.active a
+}
+
+div.navbar.navbar-inverse.navbar-fixed-top {
+	-webkit-box-shadow: 0px 2px 14px #ce3a0b;
+-moz-box-shadow: 0px 2px 14px #ce3a0b;
+-o-box-shadow: 0px 2px 14px #ce3a0b;
+-ms-box-shadow: 0px 2px 22px #000;
+box-shadow: 0px 2px 22px #000;
+} 
