@@ -8,6 +8,7 @@ body {
 	height: 66px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
+	background-image: url(../img/bk_orange.png);
 }
 
 .telbar .lead {
@@ -15,7 +16,7 @@ body {
 	color: #e8e8e8;
 	padding-left: 10px;
 	
-		text-shadow: #000000 0px -1px 0px;
+		text-shadow: #c2360a 0 -1px 1px;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -67,11 +68,17 @@ footer {
 	padding-top: 40px;
 	margin-top: 0;
 	font-size: 11px;
-	background: #fd480e repeat;
+	background: #fd480e url(../img/bk_orange.png) repeat;
+	color: #000;
+}
+
+a.btn.btn-inverse.pull-right {
+	color: #fcf6f3;
+	text-shadow: #fcfa7a 0 0 0;
 }
 
 footer a {
-	color: #fff;
+	color: #000;
 }
 
 .quote {
