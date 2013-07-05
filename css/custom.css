@@ -6,14 +6,26 @@ body {
 .telbar {
 	background-color: #fd480e;
 	height: 66px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
 }
 
 .telbar .lead {
 
-	color: #fff;
+	color: #e8e8e8;
 	padding-left: 10px;
-	font: bold 27px 'Source Sans Pro', sans-serif;
+	
 		text-shadow: #000000 0px -1px 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+button#Send.btn-large.pull-right {
+		font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	right: 15px;
 }
 
 .telbar .lead i {
@@ -69,6 +81,18 @@ footer a {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	color: #fef9e5;
+}
+
+.quote h3 {
+	color: #e8e8e8;
+}
+
+h2.pull-right {
+	color: #e8e8e8;
+	font-size: 42px;
+	margin-right: 13px;
+	text-shadow: #000000 -2px -2px 2px;
+	line-height: 80px;
 }
 
 div.navbar.navbar-fixed-top {
