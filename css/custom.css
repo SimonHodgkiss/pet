@@ -8,6 +8,21 @@ body {
 	height: 66px;
 }
 
+.telbar .lead {
+
+	color: #fff;
+	padding-left: 10px;
+	font: bold 27px 'Source Sans Pro', sans-serif;
+		text-shadow: #000000 0px -1px 0px;
+}
+
+.telbar .lead i {
+	position: relative;
+	right: 0;
+	top: 6px;
+
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #5b3124;
