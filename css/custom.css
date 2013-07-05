@@ -70,7 +70,7 @@ footer {
 	font-size: 11px;
 	background: #fd480e url(../img/bk_orange.png) repeat;
 	color: #000;
-	margin-top: 100px;
+	margin-top: 0;
 }
 
 a.btn.btn-inverse.pull-right {
